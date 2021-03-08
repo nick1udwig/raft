@@ -1,0 +1,13 @@
+-Docker desktop installer prompts to install wsl
+-WSL requires signout/signin
+-Docker desktop then starts with button to restart the app after WSL installed
+-> need to store state for app
+&& need to add a RunOnce registry note so we can continue the urbit setup after
+	Docker & WSL are completed
+-> also should check before doing all this work if Docker is already installed
+	(`where docker`); if it is we can skip this entire setup thing
+
+http://eddiejackson.net/wp/?p=18713
+https://docs.microsoft.com/en-us/windows/win32/setupapi/run-and-runonce-registry-keys
+https://www.reddit.com/r/PowerShell/comments/hw72h/how_to_set_runonce_to_run_a_powershell_script_on/
+https://cmatskas.com/configure-a-runonce-task-on-windows/
